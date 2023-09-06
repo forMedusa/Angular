@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>gulliyan</title>
+  <!-- Core theme CSS (includes Bootstrap)-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!---animation css------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="screen and (min-width: 900px)">
+  <!---font awesome------->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link href="assets/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/custom-responsive.css">
+  <link href="assets/css/meanmenu.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation-->
+  <!-- Navbar Area Start -->
+  <div class="navbar-area">
+    <!-- Menu For Mobile Device -->
+    <div class="extreme_topsearchbar">
+      <a href="index.html"><img src="assets/images/logo.svg" alt="Gulliyan" class="mobilelogo" /></a>
+      <div class="searchmobilenextlogo">
+        <div class="input-group add-on d-flex d-lg-none">
+          <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="mobile-nav">
+
+      <a href="index.html" class="logo">
+        <img class="img-fluid" src="assets/images/logo.png" alt="">
+      </a>
+      <!-- <a href="#" class="d-block d-md-none cart"><img src="assets/images/cart_bag.svg" alt=""> </a> -->
+      <div class="outer_ul">
+
+
+        <a href="/account/login" class="header__icon header__icon--account link focus-inset">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="icon icon-account"
+            fill="none" viewBox="0 0 18 19">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M6 4.5a3 3 0 116 0 3 3 0 01-6 0zm3-4a4 4 0 100 8 4 4 0 000-8zm5.58 12.15c1.12.82 1.83 2.24 1.91 4.85H1.51c.08-2.6.79-4.03 1.9-4.85C4.66 11.75 6.5 11.5 9 11.5s4.35.26 5.58 1.15zM9 10.5c-2.5 0-4.65.24-6.17 1.35C1.27 12.98.5 14.93.5 18v.5h17V18c0-3.07-.77-5.02-2.33-6.15-1.52-1.1-3.67-1.35-6.17-1.35z"
+              fill="currentColor">
+          </svg>
+
+          <span class="visually-hidden">Log in</span>
+        </a>
+        <a href="/cart" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+
+          <svg width="23" height="33" viewBox="0 0 23 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M22.8919 28.5866L21.0692 9.4798C21.0437 9.21323 20.8198 9.0097 20.5521 9.0097H17.3161V5.86157C17.3161 3.76747 16.1988 1.83239 14.3852 0.785312C12.5717 -0.261771 10.3372 -0.261771 8.52357 0.785312C6.71015 1.83239 5.59287 3.76747 5.59287 5.86157V9.00947H2.3546C2.08686 9.00947 1.86294 9.21299 1.83745 9.47956L0.0150059 28.5864C-0.0733122 29.5078 0.231045 30.4239 0.853443 31.1091C1.47582 31.7943 2.35829 32.1854 3.2839 32.186H19.623C20.5486 32.1853 21.4313 31.7945 22.0535 31.1091C22.6758 30.4239 22.9804 29.5078 22.8921 28.5864L22.8919 28.5866ZM6.6311 5.86174C6.63086 4.58198 7.13875 3.35432 8.04301 2.44865C8.9475 1.54298 10.1744 1.03347 11.4542 1.03187C12.734 1.03419 13.9602 1.54415 14.8645 2.4496C15.7685 3.35504 16.2767 4.58222 16.2774 5.86174V9.00964H6.63139L6.6311 5.86174ZM2.82629 10.0481H5.59262V11.6253C5.04348 11.7924 4.60838 12.2143 4.4243 12.7581C4.24025 13.3019 4.32949 13.9012 4.66422 14.3678C4.99871 14.8344 5.53767 15.1109 6.11186 15.1109C6.68603 15.1109 7.22499 14.8344 7.5595 14.3678C7.89422 13.9011 7.98346 13.3019 7.79941 12.7581C7.61536 12.2143 7.18024 11.7925 6.6311 11.6253V10.0481H16.2771V11.6243C15.7275 11.791 15.2919 12.2122 15.1072 12.7558C14.9222 13.2993 15.0105 13.8988 15.3445 14.3659C15.6786 14.833 16.2173 15.1104 16.7914 15.1111C17.3656 15.1121 17.9051 14.836 18.2402 14.3698C18.5756 13.9037 18.6656 13.3047 18.4822 12.7604C18.2989 12.2164 17.8645 11.7938 17.3156 11.6258V10.0481H20.0796L21.6225 26.2223H1.28312L2.82629 10.0481ZM6.11186 12.5773C6.4132 12.5769 6.68511 12.7579 6.80075 13.0361C6.91665 13.3142 6.85337 13.6346 6.64058 13.8478C6.42779 14.0613 6.10743 14.1253 5.82879 14.0101C5.55039 13.8951 5.36889 13.6237 5.36866 13.3223C5.36866 12.9116 5.70107 12.5783 6.11179 12.5773L6.11186 12.5773ZM16.7945 12.5773C17.0959 12.5769 17.3678 12.7577 17.4837 13.0358C17.5993 13.314 17.5361 13.6346 17.3233 13.8479C17.1105 14.0613 16.7901 14.1253 16.5117 14.0101C16.2331 13.8951 16.0516 13.6237 16.0513 13.3223C16.0513 12.9116 16.3838 12.5783 16.7945 12.5773ZM21.283 30.413C20.8594 30.8834 20.2556 31.1506 19.6228 31.1476H3.28364C2.65058 31.1472 2.04696 30.8794 1.62136 30.4105C1.19577 29.9415 0.987828 29.315 1.04858 28.6847L1.18442 27.2607H21.722L21.8578 28.6847H21.8576C21.9213 29.3164 21.712 29.9452 21.2827 30.4128L21.283 30.413Z"
+              fill="white" />
+          </svg>
+          <span class="visually-hidden">Cart</span></a>
+      </div>
+    </div>
+
+    <!-- Menu For Desktop Device -->
+    <div class="main-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+
+              </li>
+              <li class="nav-item hasChild">
+                <a href="#" class="nav-link dropdown-toggle">Shop Cities</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"> Item one</a></li>
+                  <li><a href="#"> Item one</a></li>
+                </ul>
+              </li>
+              <li class="nav-item hasChild">
+                <a href="#" class="nav-link dropdown-toggle">category</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"> Item one</a></li>
+                  <li><a href="#"> Item one</a></li>
+                </ul>
+              </li>
+              <li class="navbar-brand d-none d-lg-block">
+                <a href="index.html">
+                  <img class="img-fluid" src="assets/images/logo.svg" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="input-group add-on d-none d-lg-flex">
+                  <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </div>
+                </div>
+
+              </li>
+            </ul>
+            <div class="outer_ul">
+              <a href="/account/login" class="header__icon header__icon--account link focus-inset">
+
+                <img class="icon icon-account" src="assets/images/user_one.svg" alt="">
+                <span class="visually-hidden">Log in</span>
+              </a>
+              <a href="/cart" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+
+                <img src="assets/images/cart_icon.svg" alt="">
+                <span class="visually-hidden">Cart</span>
+                <span class="cart-item">2</span>
+              </a>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar Area End -->
+
+
+<header class="herosection inner-banner">
+  <div class="banner-text">
+    <div class="container">
+      <div class="row text-center">
+          <div class="breadcrumbs">
+            <ul>
+              <li> <a href="#"> Home </a></li>
+              <li><a href="#"><span>/</span> Saree</a></li>
+              <li><a href="#"><span>/</span> Jamdani Saree | Flower Motifs | Blue</a></li>
+            </ul>
+             
+      </div>
+      </div>          
+    </div>
+  </div>
+</header>
+
+<section class="product-details-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="content-carousel">
+          <div class="rtl-slider-flex">
+            <div class="rtl-slider-nav">
+              <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-one.jpg');">
+              </div>
+              <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-two.jpg');">
+              </div>
+              <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-three.jpg');">
+              </div>
+              <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-four.jpg');">
+              </div>
+              <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-three.jpg');">
+              </div>
+               <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-two.jpg');">
+              </div>
+            </div>
+          <div class="rtl-slider">
+            <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-one.jpg');">
+            </div>
+            <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-two.jpg');">
+            </div>
+            <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-three.jpg');">
+            </div>
+            <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-four.jpg');">
+            </div>
+            <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-three.jpg');">
+            </div>
+            <div class="rtl-slider-slide" style="background-image: url('./assets/images/product-slider-two.jpg');">
+            </div>
+           
+          </div>
+          <span class="thumb-prev"><i class="fa fa-angle-right fa-lg"></i></span>
+          <span class="thumb-next"><i class="fa fa-angle-left fa-lg"></i><span>
+    
+      </div>
+      <div class="slider-button">
+        <button type="button" class="btn comn-btn">Add to cart</button>
+        <button type="button" class="btn comn-btn dark">Buy now</button>
+      </div>
+      </div>
+    </div>
+      <div class="col-lg-6 product-details-riight">
+            <h4 class="title">
+              Jamdani Saree | Flower Motifs | Blue
+              <span class="menarea">City Source Kolkata </span>
+            </h4>
+            <div class="sp-price">
+              <span class="sp">Special Price</span>
+              <span class="old-p">₹6,800</span>
+              <span class="new-p">₹6,120</span>
+              <span class="text-off">(10% Off)</span>
+            </div>
+  
+            <div class="d-flex flex-row r_c_stars_container">
+              <div class="r_c_stars mb-1 me-2">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span class="r_c_n ms-1">
+                  4.5
+                </span>
+              </div>
+              <span class="r_c-text ms-2">38,432 ratings and 3,363 reviews</span>
+            </div>
+            <div class="quant_social">
+              <div class="quantity-bx">
+                <h6 class="title-attr"><small>Quantity</small></h6>                    
+                <div>
+                    <div class="btn-minus"><i class="fa-solid fa-minus"></i></div>
+                    <input value="1">
+                    <div class="btn-plus"><i class="fa-solid fa-plus"></i></div>
+                </div>
+               
+            </div>
+            <div class="social">
+              Share:
+              <ul>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="sizeare">
+            <h6 class="sp">Select Size  <a class="sz" href="#"><img class="me-1" src="assets/images/size.svg" alt="">Size Chart</a></h6>
+             
+            <ul>
+              <li>
+                  <a href="#">S</a>
+              </li>
+              <li>
+                <a href="#">M</a>
+            </li>
+            <li class="active">
+              <a href="#">L</a>
+          </li>
+          <li>
+            <a href="#">XL</a>
+        </li>
+        <li>
+          <a href="#">XXL</a>
+      </li>
+            </ul>
+          </div>
+          <div class="colorarea">
+            <h6 class="sp">Color</h6>
+            <ul>
+              <li>
+                <a href="#"><img src="assets/images/saree-one.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#"><img src="assets/images/saree-two.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#"><img src="assets/images/saree-three.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#"><img src="assets/images/saree-four.png" alt=""></a>
+              </li>
+            </ul>
+          </div>
+         <div class="accordion prd_frm" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                      Available Offers
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                    <ul class="jhiu">
+                      <li><strong>EXTRA5</strong> - Buy 2 products & get extra 5% off</li>
+                      <li><strong>EF15</strong> - Buy for ₹ 3999 & Get Extra 15% off</li>
+                    </ul>
+                    <div class="deliver-area">
+                      <h5> <img src="assets/images/location_icon.svg" alt=""> Deliver to</h5>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Saanvi Gomes, 120B/87 Rabindra Sadan Street, kolkata-700071</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <p class="deiver-dt">Delivery by Apr 22, 2023</p>
+                      <div class="d-flex flex-row r_c_stars_container">
+              <div class="r_c_stars mb-1 me-2">
+               <p> Seller: </p>Silk Waves Cloths Pvt Ltd
+                <span class="r_c_n ms-1">
+                <img src="assets/images/batch.svg" alt="">  4.2 <i class="fa-solid fa-star"></i>
+                </span>
+              </div>
+              
+            </div>
+            <div class="oth-features">
+              <ul>
+                <li class="tooltip">
+                  <img src="assets/images/arrow_back.svg" alt=""> Return/Exchange
+                  <span class="tooltiptext">Tooltip text</span>
+                </li>
+                <li class="tooltip">
+                  <img src="assets/images/cancel_icon.svg" alt=""> Cancellation
+                  <span class="tooltiptext">Tooltip text</span>
+                </li>
+                <li class="tooltip">
+                  <span class="tooltiptext">Tooltip text</span>
+                  <img src="assets/images/days_icon.svg" alt=""> Preparation Days
+                  <span class="tooltiptext">Tooltip text</span>
+                </li>
+              </ul>
+            </div>
+                    </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                       Product Details
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                     <ul>
+                      <li> <label> Material </label><span>Jamdani Silk</span></li>
+                      <li> <label> Brand Name </label><span>Begum Beliya</span></li>
+                      <li> <label> Care Instructions </label><span>Dryclean Only</span></li>
+                      <li> <label> Colour </label><span>Blue</span></li>
+                      <li> <label> Dimensions </label><span>Saree Length:-5.5 mtr & 1 mtr Untichted Blouse piece</span></li>
+                      <li> <label> In the box </label><span>Saree and Untichted Blouse piece</span></li>
+                     </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Artisan
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      <ul>
+                      <li> <label> Manufacturer Details </label><span>BEGUM BELIYA [Meghalayan Age Limited, Lower Lachumeire,Shillong 793001]</span></li>
+                        <li> <label> Country Of Origin </label><span>India</span></li>
+                     </ul>
+                    </div>
+                  </div>
+                </div>
+                
+               
+                
+              </div>
+
+          <div class="review-section">
+            <h6>Customers Reviews</h6>
+            <p>Images uploaded by customers:</p>
+            <ul>
+              <li><figure> <img src="assets/images/sharee-one.png" alt=""></figure></li>
+              <li><figure> <img src="assets/images/sharee-two.png" alt=""></figure></li>
+              <li><figure> <img src="assets/images/sharee-three.png" alt=""></figure></li>
+              <li><figure> <img src="assets/images/sharee-four.png" alt=""></figure></li>
+              <li><figure> <img src="assets/images/sharee-five.png" alt=""></figure></li>
+              <li><a href=""><figure> <img src="assets/images/sharee-five.png" alt="">
+               <span> +27</span>
+              </figure>
+            </a>
+            </li>
+            </ul>
+            <div class="review-bx">
+              <div class="user-bx"><img src="assets/images/customer-one.png" alt=""></div>
+              <div class="user-comment">
+                <div class="r_c_stars mb-1 me-2">
+                  <span class="r_c_n me-1">
+                    4
+                  </span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>Supbbbbbbbb, mind-blowing, A1, fantastic , outstanding, wow</p>
+                <span class="post-date">Ribika Naik  9 months ago</span>
+              </div>
+            </div>
+            <div class="review-bx">
+              <div class="user-bx"><img src="assets/images/customer-two.png" alt=""></div>
+              <div class="user-comment">
+                <div class="r_c_stars mb-1 me-2">
+                  <span class="r_c_n me-1">
+                    4
+                  </span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>Awesome product easily washable comfortable for every occasion</p>
+                <span class="post-date">Prajwal Prajju  9 months ago</span>
+              </div>
+            </div>
+            <div class="review-bx">
+              <div class="user-bx"><img src="assets/images/customer-three.png" alt=""></div>
+              <div class="user-comment">
+                <div class="r_c_stars mb-1 me-2">
+                  <span class="r_c_n me-1">
+                    4
+                  </span>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>Average quality , finishing is good</p>
+                <span class="post-date">Ribika Naik  9 months ago</span>
+              </div>
+            </div>
+            <a href="" class="all-rvw">All 3,336 reviews</a>
+          </div>
+          <div class="rating-bx">
+            <form action="#">
+            <h5>Rate This Product</h5>
+            <div class="bl-strs">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="form-group">
+              <label>Review This Product</label>
+                <textarea class="form-control" placeholder="Description"></textarea>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="cam"><img src="assets/images/camera.svg" alt=""></a>
+                <button type="submit" class="btn comn-btn">Submit</button>
+              </div>
+            </div>
+          </form>
+          </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="nw-occarea">
+  <div class="container">
+    <div class="prd-cat-top heading-top">
+      <h2 class="heading-titlte">Other Products From Seller</h2>
+      <a href="#" class="view-all d-none d-md-block">View All Products</a>
+    </div>
+   
+    <div class="owl-carousel op-carousel owl-theme">
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header">
+             <img class="pic-main" src="assets/images/op-1.png" alt="">
+              <img class="pic-two" src="assets/images/fashion-two.png" alt="rover">
+            </a>
+            <div class="card-body">
+              <h4> <a href="#">Handpainted Kalamkari Semi Silk Utility Pouch</a>
+              </h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header">
+              <img class="pic-main" src="assets/images/op-2.png" alt="">
+              <img class="pic-two" src="assets/images/fashion-three.png" alt="rover">
+            </a>
+            <div class="card-body">
+
+              <h4> <a href="#">Bagh Block Printing Kantha Style Cotton Fabric</a></h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header">
+              <img class="pic-main" src="assets/images/op-3.png" alt="">
+              <img class="pic-two" src="assets/images/fashion-four.png" alt="rover">
+            </a>
+            <div class="card-body">
+
+              <h4><a href="#">Printing Cotton Cushion Cover</a></h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header">
+              <img class="pic-main" src="assets/images/op-4.png" alt="">
+              <img class="pic-two" src="assets/images/fashion-one.png" alt="rover">
+            </a>
+            <div class="card-body">
+              <h4> <a href="#">Maroon Jhiri Pure Handloom Cotton Fabric</a> </h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header">
+              <img class="pic-main" src="assets/images/op-2.png" alt="">
+              <img class="pic-two" src="assets/images/fashion-two.png" alt="rover">
+            </a>
+            <div class="card-body">
+
+              <h4> <a href="#">Bengal Kantha Embroidery</a>
+              </h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="view-all d-block d-md-none">View All Products</a>
+  </div>
+</section>
+
+<section class="nw-occarea">
+  <div class="container">
+    <div class="prd-cat-top heading-top">
+      <h2 class="heading-titlte">More In Same Material</h2>
+      <a href="#" class="view-all d-none d-md-block">View All Products</a>
+    </div>
+   
+    <div class="owl-carousel op-carousel owl-theme">
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header tall-card-header">
+             <img class="pic-main" src="assets/images/mi-1.jpg" alt="">
+              <img class="pic-two" src="assets/images/fashion-two.png" alt="rover">
+            </a>
+            <div class="card-body">
+              <h4> <a href="#">Handpainted Kalamkari Semi Silk Utility Pouch</a>
+              </h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header tall-card-header">
+              <img class="pic-main" src="assets/images/mi-2.jpg" alt="">
+              <img class="pic-two" src="assets/images/fashion-three.png" alt="rover">
+            </a>
+            <div class="card-body">
+
+              <h4> <a href="#">Bagh Block Printing Kantha Style Cotton Fabric</a></h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header tall-card-header">
+              <img class="pic-main" src="assets/images/mi-3.jpg" alt="">
+              <img class="pic-two" src="assets/images/fashion-four.png" alt="rover">
+            </a>
+            <div class="card-body">
+
+              <h4><a href="#">Printing Cotton Cushion Cover</a></h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header tall-card-header">
+              <img class="pic-main" src="assets/images/mi-4.jpg" alt="">
+              <img class="pic-two" src="assets/images/fashion-one.png" alt="rover">
+            </a>
+            <div class="card-body">
+              <h4> <a href="#">Maroon Jhiri Pure Handloom Cotton Fabric</a> </h4>
+              <div class="tag">Silk Waves</div>
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single">
+        <div class="itembox">
+          <div class="card bag-bx occ-nw product-single-card">
+            <a href="#" class="card-header tall-card-header">
+              <img class="pic-main" src="assets/images/mi-2.jpg" alt="">
+              <img class="pic-two" src="assets/images/fashion-two.png" alt="rover">
+            </a>
+            <div class="card-body">
+
+              <h4> <a href="#">Bengal Kantha Embroidery</a>
+              </h4>
+              <div class="tag">Silk Waves</div>
+
+              <div class="prd-info">
+                <span class="price">₹240.00</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="bottomwrapper">
+                <div class="cart-bag">
+                  <button>ADD TO CART</button>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="view-all d-block d-md-none">View All Products</a>
+  </div>
+</section>
+
+
+
+<!--news-letter-->
+
+<section class="nwsleter">
+  <div class="container">
+    <div class="heading-top text-center">
+      <h2 class="heading-titlte">Gulliyan Newsletter</h2>
+      <p class="heading-text">Subscribe to our newsletter and join the friendly community today!</p>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <form action="" method="post">
+          <input type="email" name="email" placeholder="Your Email">
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="seo-bottom-content-panel">
+  <div class="container">
+    <h2>Women Saree</h2>
+    <p>How many times have you admired that gorgeous saree, lehenga choli, or a designer blouse worn by your favourite actress or artist on a television show or in a movie and longed for a similar one? Since time immemorial, the charm and magnificence of Indian ethnic wear have fascinated generations after generations of women.</p>
+    <p>
+      Over the years, a woman’s wardrobe has undergone a paradigm shift, specifically in ethnic wear online. Everyone has a particular inclination towards traditional or ethnic outfits regardless of where you come from.
+    </p>
+    <h2>Reasons Why Women Saree Has Gained Popularity:</h2>
+    <ul>
+      
+      <li><strong>A blend of western and Indian fashion: </strong>Why is Indian ethnic wear so popular today? It is an excellent combination of the sophisticated style of western fashion and the luxury of Indian traditional fashion. Most tailors and designers craft the clothes by combining the elegant cuts and gorgeousness of these fashion styles, making them irresistible. So, be it a lehenga choli, salwar suit or a saree, all are available in an eclectic mix of ethnic charm and chic twist.</li>
+
+      <li><strong>Growing promotion on online portals: </strong>The moment you type the words ‘ethnic wear online in India’, countless options appear on your screen. In recent years, there has been a massive jump in the number of small, medium and large-scale companies using e-commerce portals; therefore, online stores of ethnic wear have made it possible for women across the globe to buy designer ethnic clothing without any hassles. Also, there is not just one ethnic wear online shopping website, but several dependable websites.</li>
+
+      <li><strong>Ideal for traditional occasions: </strong>Be it festivals like Diwali, Navratri, Karva Chauth, Eid, or any private function, ethnic clothing top the list when selecting what to wear. Ethnic wear with a touch of experimentation and innovative style can enhance the look of any traditional handloom linen saree, kurtas, lehengas cholis, and more. Also, women from western culture prefer to wear Indian ethnic wear when participating in Indian festivals to enjoy these occasions in their true spirit.</li>
+
+      <li><strong>Good quality at reasonable prices: </strong>While buying ethnic clothing, one of the top criteria that women have in mind is cost. They look for high-quality and unique designs at budget-friendly prices. Modern artisans and designers keep this in mind. They ensure the finesse and designs of such clothes at affordable prices without compromising the quality. Further, online e-commerce sites offer additional offers and discounts that make purchasing Indian ethnic wear a viable option.</li>
+    </ul>
+
+    <h2>Popular Saree For Women On Gulliyan</h2>
+    <p>Merely a decade ago, ethnic clothing meant having them stitched by a local tailor or getting them designed by a fancy designer. But today, with the advent of several ethnic wear sustainable brands, women find it convenient to sit at home and place orders from their favourite ethnic wear online shopping websites. One such brand is Amala Earth, which has its foundation firmly rooted in Indian origin.</p>
+    <h2>Here are some ethnic essentials that are a must in a woman’s wardrobe:</h2>
+    <ul>
+      
+      <li><strong>Sarees: </strong>Whenever we talk about ethnic wear for women, the saree is an essential piece. Your attire collection is incomplete without a considerable number and variety of sarees. Need something to wear for an evening party, a family function or a festive occasion? A traditional handloom linen saree can never go wrong, especially a maheswari silk saree. A pair of matching handmade earrings, heels, and bangles, and you are ready to steal the show.</li>
+
+      <li><strong>Ethnic shrugs: </strong> Be ready to bag compliments when wearing a bright, beautiful shrug. Even a simple dress undergoes a complete transformation when worn with it. Shrugs are available in short and long lengths, and you can wear them with medium-length kurtis, long skirts, dhoti salwars and short tops.</li>
+
+
+      <li><strong>Blouses: </strong>Whether you need one for your wedding trousseau or to match a silk saree or cotton jamdani, selecting the perfect style can be tricky. A collection of perfectly fitting blouses can step up your fashion game without a doubt. Long-sleeved blouses, high neck blouses, off-shoulder blouses, cutwork blouses, and mirror blouses are just a few styles. It is crucial to understand your body shape before finalising the blouse design.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Consumer satisfaction, authenticity, promotion of locally sourced products and sustainability are the driving forces in every brand's product category. Moreover, because women love to experiment today, the brand keeps its designs up-to-date to stay abreast with the constantly evolving field of women’s ethnic clothing.</p>
+
+    <p>So, your quest for authentic, vibrant, splendidly designed, and reasonably-priced ethnic wear ends here. Start shopping at Amala Earth now. Treat yourself to a shopping spree or gift your loved ones stunning ethnic wear that will bring out their true beauty!</p>
+
+
+
+    <div class="accordion" id="accordionExample">
+      <h2>Frequently Asked Questions:</h2>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What are dhoti pants for women?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Merely a decade ago, ethnic clothing meant having them stitched by a local tailor or getting them designed by a fancy designer. But today, with the advent of several ethnic wear sustainable brands, women find it convenient to sit at home and place orders from their favourite ethnic wear online shopping websites. One such brand is Amala Earth, which has its foundation firmly rooted in Indian origin.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            What are saree skirts?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          Merely a decade ago, ethnic clothing meant having them stitched by a local tailor or getting them designed by a fancy designer. But today, with the advent of several ethnic wear sustainable brands, women find it convenient to sit at home and place orders from their favourite ethnic wear online shopping websites. One such brand is Amala Earth, which has its foundation firmly rooted in Indian origin.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What are a few tips to look after valuable ethnic wear?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Merely a decade ago, ethnic clothing meant having them stitched by a local tailor or getting them designed by a fancy designer. But today, with the advent of several ethnic wear sustainable brands, women find it convenient to sit at home and place orders from their favourite ethnic wear online shopping websites. One such brand is Amala Earth, which has its foundation firmly rooted in Indian origin.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+</section>
+
+<!-- footer-->
+<footer class="site-footer">
+  <div class="container">
+    <div class="d-none d-md-block">
+      <div class="row ">
+        <div class="col-md-3">
+          <div class="footer-link">
+
+            <h2 class="footer-title">Quick Links</h2>
+            <ul>
+              <li>
+                <a href="#!">About Us</a>
+              </li>
+              <li>
+                <a href="#!">Tales From Our Journey</a>
+              </li>
+              <li>
+                <a href="#!">Corporate Gifts | Bulk Orders</a>
+              </li>
+              <li>
+                <a href="#!">Contact Us</a>
+              </li>
+            </ul>
+            <!-- social -->
+            <ul class="social">
+              <li><a class="btn socialMediaIcons" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a class="btn socialMediaIcons" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="btn socialMediaIcons" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a class="btn socialMediaIcons" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-link">
+            <h2 class="footer-title">Policies</h2>
+            <ul>
+              <li>
+                <a href="#!">Refunds, Exchanges & Cancellations</a>
+              </li>
+              <li>
+                <a href="#!">Shipping & Payments</a>
+              </li>
+              <li>
+                <a href="#!">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#!">Terms Of Use</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-link">
+            <h2 class="footer-title"> Your Account</h2>
+            <ul>
+              <li>
+                <a href="#!">New User</a>
+              </li>
+              <li>
+                <a href="#!">Login</a>
+              </li>
+              <li>
+                <a href="#!">Track Order</a>
+              </li>
+              <li>
+                <a href="#!">Manage Your Account</a>
+              </li>
+              <li>
+                <a href="#!">Shopping Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-link">
+            <h2 class="footer-title">Top Categories</h2>
+            <ul>
+              <li>
+                <a href="#!">Home Decor</a>
+              </li>
+              <li>
+                <a href="#!">Furnishing</a>
+              </li>
+              <li>
+                <a href="#!">Paintings</a>
+              </li>
+              <li>
+                <a href="#!">Kitchen and Dining</a>
+              </li>
+              <li>
+                <a href="#!">Best Seller</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-link">
+       <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Quick Links
+            </button>
+          </h2>
+         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <a href="#!">About Us</a>
+                </li>
+                <li>
+                  <a href="#!">Tales From Our Journey</a>
+                </li>
+                <li>
+                  <a href="#!">Corporate Gifts | Bulk Orders</a>
+                </li>
+                <li>
+                  <a href="#!">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Policies
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <a href="#!">Refunds, Exchanges & Cancellations</a>
+                </li>
+                <li>
+                  <a href="#!">Shipping & Payments</a>
+                </li>
+                <li>
+                  <a href="#!">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#!">Terms Of Use</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Your Account
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <a href="#!">New User</a>
+                </li>
+                <li>
+                  <a href="#!">Login</a>
+                </li>
+                <li>
+                  <a href="#!">Track Order</a>
+                </li>
+                <li>
+                  <a href="#!">Manage Your Account</a>
+                </li>
+                <li>
+                  <a href="#!">Shopping Cart</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Top Categories
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <a href="#!">Home Decor</a>
+                </li>
+                <li>
+                  <a href="#!">Furnishing</a>
+                </li>
+                <li>
+                  <a href="#!">Paintings</a>
+                </li>
+                <li>
+                  <a href="#!">Kitchen and Dining</a>
+                </li>
+                <li>
+                  <a href="#!">Best Seller</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row oprate-plat">
+      <span style="font-size: 20px;"> Experience Gulliyan App on Mobile</span>
+
+      <div class="gp">
+        <a href="#"><img class="donwloadApp" src="../galiyan/assets/images/playstore.svg" alt=""></a>
+        <a href="#"><img class="donwloadApp" src="../galiyan/assets/images/appstore.svg" alt=""></a>
+      </div>
+    </div>
+    <hr style="color: #fff;">
+    <div class="row flex-row-reverse">
+
+      <div class="col-md-6 payment-card">
+        <a href="#"><img src="assets/images/paymnt-icon.png" alt=""></a>
+      </div>
+      <div class="col-md-6">
+        <P class="copy-right"> © 2023 Gulliyan.com |<a href="#"> Privacy Policy </a>| <a href="#">Terms of Use.</a>
+        </P>
+      </div>
+    </div>
+  </div>
+
+
+
+</footer>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/meanmenu.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/meanmenu.js"></script>
+
+  <!-- Animation scrool js-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script>
+    //
+    // Tabs Toggler
+    //
+
+    (function ($) {
+      // Variables
+      const $tabLink = $('#tabs-section .tab-link');
+      const $tabBody = $('#tabs-section .tab-body');
+      let timerOpacity;
+
+      // Toggle Class
+      const init = () => {
+        // Menu Click
+        $tabLink.off('click').on('click', function (e) {
+          // Prevent Default
+          e.preventDefault();
+          e.stopPropagation();
+
+          // Clear Timers
+          window.clearTimeout(timerOpacity);
+
+          // Toggle Class Logic
+          // Remove Active Classes
+          $tabLink.removeClass('active ');
+          $tabBody.removeClass('active ');
+          $tabBody.removeClass('active-content');
+
+          // Add Active Classes
+          $(this).addClass('active');
+          $($(this).attr('href')).addClass('active');
+
+          // Opacity Transition Class
+          timerOpacity = setTimeout(() => {
+            $($(this).attr('href')).addClass('active-content');
+          }, 50);
+        });
+      };
+
+      // Document Ready
+      $(function () {
+        init();
+      });
+    }(jQuery));
+  </script>
+  
+<script>
+$(document).ready(function(){
+	$('.rtl-slider').slick({
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  arrows: false,
+	  fade: true,
+	  asNavFor: '.rtl-slider-nav'
+	});
+	$('.rtl-slider-nav').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		vertical: true,
+	   asNavFor: '.rtl-slider',
+	   centerMode: false,
+	   focusOnSelect: true,
+		prevArrow: ".thumb-prev",
+   	nextArrow: ".thumb-next",
+	});
+});
+
+ 
+</script>
+</body>
+
+</html>

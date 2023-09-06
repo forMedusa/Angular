@@ -1,0 +1,31 @@
+<header class="herosection">
+    <div class="container banner-text" >
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
+            <div class="carousel-inner" style="margin-top: 15%;" >
+                    <div class="carousel-item"*ngFor="let slide of heroSectionData let i = index" [class.active]="i === 0"  data-bs-interval="10000" >
+                       <div style="display: flex;">
+                        <div>
+                        <h5>{{slide.heading}}</h5>
+                        <p>{{slide.process_text}}</p>
+                        <a [href]="slide.button_link" class="btn btn-primary" type="button">{{slide.button_name}}</a>
+                    </div>
+
+                        <img [src]="getImageUrl(slide.images)" class="d-block w-100" alt="{{slide.heading}}"> 
+                      
+                      
+                    </div>
+                    </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+
+  </header>
