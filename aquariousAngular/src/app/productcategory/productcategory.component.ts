@@ -11,6 +11,7 @@ export class ProductcategoryComponent {
     this.getData()
   }
   productCateg:any
+  imageString="https://gsapi.gulliyan.com/img-path/";
 
   getData(){
     this.service.getAllData().subscribe(res => {
@@ -19,4 +20,9 @@ export class ProductcategoryComponent {
       console.log(this.productCateg[0].advert_image)
     })
   }
+
+  getImageUrl(imagePath:string){
+    return this.imageString+imagePath;
+  }
+
 }

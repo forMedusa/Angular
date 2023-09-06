@@ -5,9 +5,9 @@
         <h2 class="heading-titlte">Product Category</h2>
         <a href="#" class="view-all d-none d-md-block">View All Products</a>
       </div>
-      <div class="row" *ngFor="let products of productCateg">
-        <div class="card" style="width: 18rem;">
-            <img [src]="products.advert_image" class="card-img-top" alt="...">
+      <div class="row">
+        <div class="card" style="width: 18rem;" *ngFor="let products of productCateg">
+            <img [src]="getImageUrl(products.advert_image)" class="card-img-top" alt="...">
             
           </div>
       </div>
