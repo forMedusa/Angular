@@ -10,14 +10,18 @@ export class ProductcategoryComponent {
   ngOnInit(): void {
     this.getData()
   }
-  productCateg:any
+  productCateg={
+    link:'',
+    image:''
+  }
   imageString="https://gsapi.gulliyan.com/img-path/";
 
   getData(){
     this.service.getAllData().subscribe(res => {
-      this.productCateg = res.data.allAdvert.rows
+      this.productCateg.link = res.data.allAdvert.rows[0].link
+      this.productCateg.image = res.data.allAdvert.rows[0].advert_image
       console.log(res);
-      console.log(this.productCateg[0].advert_image)
+      console.log(this.productCateg);
     })
   }
 
